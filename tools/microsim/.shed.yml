@@ -10,7 +10,7 @@ long_description: |
   for the Stokes flow field driven by a fixed pressure difference
   between inlet and outlet, and returning the converged result as a VTU file.
 homepage_url: https://git.iws.uni-stuttgart.de/krachdd/pseudo3D_stokes
-remote_repository_url: https://codebase.helmholtz.cloud/felix.weinhardt/microsim/-/tree/main/galaxy
+remote_repository_url: https://github.com/Helmholtz-UFZ/galaxy-tools/tree/main/tools/microsim
 type: unrestricted
 categories:
   - Imaging
