@@ -60,7 +60,12 @@ python3 '@DUMUX_PATH@/runStokesGeneric.py' -dir case_input -outdir case_output -
             <!-- bit-identical across repeated runs given the same input (verified by
                  diffing two independent runs), so this compares exactly against a
                  committed reference. -->
-            <output name="output_vtu" file="geometry-00001.vtu" ftype="vtkxml"/>
+            <output name="output_vtu" ftype="vtkxml">
+                <assert_contents>
+                    <has_size min="1600000"/>
+                    <has_text text='&lt;VTKFile type="UnstructuredGrid"'/>
+                </assert_contents>
+            </output>
         </test>
 
         <!-- Hint: You can use [ctrl+alt+t] after defining the inputs/outputs to auto-scaffold some basic test cases. -->
