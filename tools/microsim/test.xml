@@ -1,6 +1,5 @@
-<tool id="dumux_pseudo3D" name="Dumux Pseudo-3D Stokes" version="@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" profile="20.01" license="MIT">
-
-    <description>pore-scale pseudo-3D Stokes/Brinkman flow simulation from a PGM geometry</description>
+<tool id="microsim" name="microsim" version="@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" profile="20.01" license="MIT">
+    <description>pore-scale pseudo-3D Stokes flow simulation from a PGM geometry</description>
     <macros>
         <token name="@TOOL_VERSION@">0.1.0</token>
         <token name="@VERSION_SUFFIX@">0</token>
