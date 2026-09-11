@@ -2,7 +2,7 @@
 # codebase.helmholtz.cloud/felix.weinhardt/microsim). The tool it wraps is
 # dumux_pseudo3d_stokes (see test.xml's <tool id="dumux_pseudo3D">).
 name: microsim
-owner: felix.weinhardt
+owner: ufz
 description: Pseudo-3D Stokes flow simulation on PGM pore-geometry images (DuMux-based)
 long_description: |
   Runs the Pseudo-3D-Stokes module for varying apertures (a DuMux-based
