@@ -36,7 +36,7 @@ cp '$pgm_file' 'case_input/geometry.pgm' &&
 python3 '@DUMUX_PATH@/runStokesGeneric.py' -dir case_input -outdir case_output -input '@DUMUX_PATH@/genericInput.input' -vs_x $pixelsize_x_m -vs_y $pixelsize_y_m -height $height_m -dumux '@DUMUX_PATH@' -exec pseudo3D_stokes -govEq brinkman -no_lambda -heightAveraged -get_phi -vtu
 ]]></command>
     <inputs>
-        <param name="pgm_file" type="data" format="pgm" label="PGM geometry">
+        <param name="pgm_file" type="data" format="pgm,ppm" label="PGM geometry">
         </param>
         <section name="sim_params" title="Simulation parameters" expanded="true">
             <param name="pixelsize_x_um" type="float" value="1" min="0" label="Pixel size in x [µm]"/>
