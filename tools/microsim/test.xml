@@ -2,7 +2,7 @@
     <description>pore-scale pseudo-3D Stokes flow simulation from a PGM geometry</description>
     <macros>
         <token name="@TOOL_VERSION@">0.1.0</token>
-        <token name="@VERSION_SUFFIX@">0</token>
+        <token name="@VERSION_SUFFIX@">1</token>
         <!-- built from ../docker (see docker/README.md) - "for use as a Galaxy tool container".
              Pinned to a real tag (not :latest) so job runs stay reproducible - bump this and
              re-push when the image changes. -->
